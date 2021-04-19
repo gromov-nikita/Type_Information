@@ -42,10 +42,10 @@ public class Runner {
         } catch (InvocationTargetException e) {
             e.printStackTrace();
         }
-        int[] array = new int[2];
+        Integer[] array = new Integer[2];
         array[0] = 2;
         array[1] = 5;
-        method = obj.getClass().getDeclaredMethod("sum");
+        method = obj.getClass().getDeclaredMethod("sum", int.class, int.class);
         method.setAccessible(true);
         try {
             System.out.println(method.invoke(obj, array));

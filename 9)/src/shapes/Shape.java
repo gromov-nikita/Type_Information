@@ -1,8 +1,6 @@
 package shapes;
-public abstract class Shape {
-    void draw() {
+public class Shape {
+    public void draw() {
         System.out.println(this + ".draw()");
     }
-
-    abstract public String toString();
 }

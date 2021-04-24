@@ -4,9 +4,15 @@ type or a true Object.
  */
 public class Runner {
     public static void main(String[] args) {
-        char[] array = new char[3];
-        System.out.println(array.getClass());//Я немного не понял задание.
-                                             // Ведь если объект тто наследуется от Object
-                                            //и то что я могу вызываь разные методы доказывает что объект
+        Character[] array = new Character[3];
+        array[0] = '0';
+        array[1] = '1';
+        array[2] = '2';
+        System.out.println();
+        char[] array2 = new char[3];
+        array2[0] = '0';
+        array2[1] = '1';
+        array2[2] = '2';
+        array.
     }
 }

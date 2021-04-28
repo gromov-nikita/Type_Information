@@ -8,11 +8,12 @@ public class Runner {
         array[0] = '0';
         array[1] = '1';
         array[2] = '2';
-        System.out.println();
+        System.out.println(array.getClass().getComponentType().isPrimitive());
         char[] array2 = new char[3];
         array2[0] = '0';
         array2[1] = '1';
         array2[2] = '2';
-        array.
+        System.out.println(array2.getClass().getComponentType().isPrimitive());
+
     }
 }
